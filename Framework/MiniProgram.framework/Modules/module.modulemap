@@ -1,0 +1,6 @@
+framework module MiniProgram {
+  umbrella header "MiniProgram.h"
+
+  export *
+  module * { export * }
+}
