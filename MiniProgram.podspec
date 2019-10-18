@@ -52,6 +52,10 @@ Pod::Spec.new do |s|
   #是否需要支持ARC
   s.requires_arc = true
 
+  s.xcconfig = {
+    'VALID_ARCHS' =>  'arm64 x86_64',
+  }
+
   #依赖的第三方库
   s.dependency "AFNetworking", "~> 3.2.0"
   s.dependency "ZipArchive", "~> 1.4.0"
