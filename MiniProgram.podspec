@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name         = 'MiniProgram'
 
   #版本号
-  s.version      = '1.0.0'
+  s.version      = '1.1.0'
 
   #简介
   s.summary      = '小程序平台'
@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   }
 
   #依赖的第三方库
-  s.dependency "AFNetworking", "~> 3.2.0"
+  s.dependency "AFNetworking", "~> 3.2.1"
   s.dependency "ZipArchive", "~> 1.4.0"
   s.dependency "Masonry", "~> 1.1.0"
 
