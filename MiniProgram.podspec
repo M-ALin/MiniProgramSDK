@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
 
   #资源文件路径
-  #s.resources = 'Framework/MPRes.bundle'
+  s.resources = 'Resources/MPRes.bundle'
 
   #项目的地址 （注意这里的tag位置，可以自己写也可以直接用s.version，但是与s.version一定要统一）
   s.source       = { :git => 'https://github.com/meifenglin/MiniProgram.git', :tag => s.version }

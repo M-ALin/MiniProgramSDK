@@ -11,10 +11,8 @@
 
 @interface AccountSystem : NSObject
 
-/// 获取自定义账号系统的uid信息
-- (void)getUid:(AccountSystemResponse *)response;;
+// 获取当前用户信息
+- (void)getCurrentUser:(AccountSystemResponse *)response;
 
-/// 获取自定义账号系统的userInfo信息
-- (void)getUserInfo:(AccountSystemResponse *)response;;
 @end
 

@@ -8,12 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class UserInfo;
+
 @interface AccountSystemResponse : NSObject
 
-/// 返回正确结果的回调
-@property (nonatomic, copy) void (^resolve) (id result);
+// 返回正确结果的回调
+@property (nonatomic, copy) void (^resolve) (UserInfo *userInfo);
 
-/// 返回错误结果的回调
-@property (nonatomic, copy) void (^reject) (NSString *error);
+// 返回错误结果的回调
+@property (nonatomic, copy) void (^reject) (NSString *errMsg);
 @end
 

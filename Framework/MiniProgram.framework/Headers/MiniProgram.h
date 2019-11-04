@@ -23,3 +23,4 @@ FOUNDATION_EXPORT const unsigned char MiniProgramVersionString[];
 #import "LRUWindowManager.h"
 #import "UserApiResponse.h"
 #import "AccountSystem.h"
+#import "UserInfo.h"
