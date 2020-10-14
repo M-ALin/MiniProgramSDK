@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
   #支持最小系统版本
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '8.0'
 
   #资源文件路径
   s.resources = 'Resources/MPRes.bundle'
