@@ -77,7 +77,7 @@ static inline LaunchOptions LaunchOptionsMake(NSString *path){
  @param query 传递给指定页面的参数
  @param completion 启动小程序回调 success: YES:启动小程序成功 NO:启动小程序失败 msg:回调信息
  */
-- (void)launchAppOpt:(NSString *)appId path:(NSString *)path query:(NSDictionary *)query completion:(void(^)(BOOL success, NSString *msg))completion;
+- (void)launchAppOpt:(NSString *)appId path:(NSString *)path query:(NSString *)query completion:(void(^)(BOOL success, NSString *msg))completion;
 
 /**
  打开指定URL
@@ -126,6 +126,11 @@ static inline LaunchOptions LaunchOptionsMake(NSString *path){
  获取SDK版本号
 */
 - (NSString *)version;
+
+/**
+ 判断SDK是否已经初始化
+ */
+- (BOOL)checkSDKIsInitialized;
 
 /**
  用户信息发生改变事件

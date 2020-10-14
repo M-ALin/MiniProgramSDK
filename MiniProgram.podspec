@@ -2,17 +2,17 @@ Pod::Spec.new do |s|
 
 
   #名称
-  s.name         = 'MiniProgram'
+  s.name         = 'MiniProgramSDK'
 
   #版本号
-  s.version      = '1.1.0'
+  s.version      = '1.2.0'
 
   #简介
-  s.summary      = '小程序平台'
+  s.summary      = '小程序平台，在iOS项目中加载微信小程序'
 
  
   #项目主页地址
-  s.homepage     = 'https://github.com/meifenglin/MiniProgram'
+  s.homepage     = 'https://github.com/meifenglin/MiniProgramSDK'
 
 
   #许可证
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
   #支持最小系统版本
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.0'
 
   #资源文件路径
   s.resources = 'Resources/MPRes.bundle'
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
 
 
   #依赖库
-  s.frameworks = "Foundation", "AVFoundation", "CFNetwork", "CoreBluetooth", "CoreGraphics", "CoreLocation", "JavaScriptCore", "Security"
+  s.frameworks = "Foundation", "AVFoundation", "CFNetwork", "CoreBluetooth", "CoreGraphics", "CoreLocation", "JavaScriptCore", "Security", "CoreTelephony", "SystemConfiguration"
 
 
   #是否需要支持ARC
