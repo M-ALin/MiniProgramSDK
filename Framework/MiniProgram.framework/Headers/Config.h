@@ -42,11 +42,10 @@
  */
 - (void)createPackage:(NSString *)package object:(NSObject *)object context:(id)context;
 
+- (NSArray *)getPackages;
 
--(NSArray *)getPackages;
+- (void)setupAccountSystemWithMethod:(id)method params:(id)params callback:(void (^)(id result, id err))callback;
 
--(void)setupAccountSystemWithMethod:(id)method params:(id)params callback:(void (^)(id result, id err))callback;
-
--(void)setupUserApiWithMethod:(id)method params:(id)params callback:(void (^)(id result, id err))callback;
+- (void)setupUserApiWithMethod:(id)method params:(id)params callback:(void (^)(id result, id err))callback;
 @end
 

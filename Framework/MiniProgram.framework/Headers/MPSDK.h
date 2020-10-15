@@ -84,7 +84,7 @@ static inline LaunchOptions LaunchOptionsMake(NSString *path){
  @param url 要打开的url
  @param completion 打开指定URL回调 success: YES:打开指定URL成功 NO:打开指定URL失败 msg:回调信息
 */
--(void)launchURL:(NSString *)url completion:(void(^)(BOOL success, NSString *msg))completion;
+- (void)launchURL:(NSString *)url completion:(void(^)(BOOL success, NSString *msg))completion;
 
 /**
  打开单页面小程序，push出加载小程序的控制器，不单独创建window，与宿主程序导航控制器结合
