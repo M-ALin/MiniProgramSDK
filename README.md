@@ -1,1 +1,1 @@
-# MiniProgram
+# MiniProgramSDK

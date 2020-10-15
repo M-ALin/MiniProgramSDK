@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name         = 'MiniProgramSDK'
 
   #版本号
-  s.version      = '1.2.0'
+  s.version      = '1.2.1'
 
   #简介
   s.summary      = '小程序平台，在iOS项目中加载微信小程序'
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
   #支持最小系统版本
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.0'
 
   #资源文件路径
   s.resources = 'Resources/MPRes.bundle'
