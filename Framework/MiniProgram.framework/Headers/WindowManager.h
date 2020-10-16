@@ -10,7 +10,7 @@
 
 @interface WindowManager : NSObject
 
-// 允许在后台运行的小程序最大数量
+// 允许在后台运行的小程序最大数量,默认3个
 @property (nonatomic, assign) NSInteger cacheCount;
 
 // 正在运行的所有小程序id

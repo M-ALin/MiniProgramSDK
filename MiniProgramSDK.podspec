@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name         = 'MiniProgramSDK'
 
   #版本号
-  s.version      = '1.2.1'
+  s.version      = '1.2.2'
 
   #简介
   s.summary      = '小程序平台，在iOS项目中加载微信小程序'
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
   #是否需要支持ARC
   s.requires_arc = true
 
-  s.xcconfig = {
-    'VALID_ARCHS' =>  'arm64 x86_64',
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' =>  'x86_64 armv7 arm64',
   }
 
   #依赖的第三方库
